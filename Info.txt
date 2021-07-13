@@ -1,0 +1,13 @@
+Design Smell
+Unused class - printReceipt.java
+
+Code Smell
+1. God class
+Both seller and customer in OrderingApplication.java use User class to be initialized
+
+2. Data clump
+There is only one string address in Address.java regardless of multiple strings
+    such as street, city, state.
+
+3. Data class
+There is no methods such getDateCreated() and getTotalItemsNo() to make the class to specialized.
